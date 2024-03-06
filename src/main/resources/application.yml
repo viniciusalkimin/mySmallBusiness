@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  shutdown: graceful
+application:
+  context-path: /my-small-business/api
+spring:
+  application:
+    name: my-small-business
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/
+      database: admin
